@@ -1,0 +1,18 @@
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh; /* Adjust this as needed for your layout */
+}
+
+.skill-img {
+    max-width: 150px; /* Set a consistent max-width for all images */
+    max-height: 100%;
+}
+
+.project-image {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
